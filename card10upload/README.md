@@ -8,6 +8,6 @@ Example usage on macOS
 python3 -m venv venv
 . venv/bin/activate
 pip install pyserial
-sudo python3 card10upload.py -f kikkeli.py \
+sudo python3 upload.py -f kikkeli.py \
    -p /dev/tty.usbmodem14101
 ```
